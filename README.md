@@ -129,6 +129,20 @@
 
 - 伪代码找出bug
   - 通过伪代码分析来识别潜在的bug
+```
+Initialize total to 0
+Set array to [3, 5, 2, 8, 7, 10, 12]
+Set length to the number of elements array
+Initialize index to 0
+Loop while index is less then length
+    If array[index] mod 2 equals 0 then
+        Set square to array[index] * array[index]
+        Add square to total
+    End If
+    Increment index by 1
+End Loop
+Display total
+```
 
 ## 职业道德 (Professionalism and Ethics in Computing)  只需要了解
 - 法律与法规（英国为主）
