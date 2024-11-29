@@ -59,7 +59,7 @@
         SRAM is suitable for **cache**, **emphasizing speed**; DRAM is suitable for **main memory**, **emphasizing capacity** and cost.
 
         | **Characteristic** | **DRAM** | **SRAM** |
-        |-----------------|----|----------------|
+        |--------------------|----------|----------------|
         | **Storage** | **Capacitance**(电容) & **Transistor**（晶体管） | **Transistor**（晶体管） |
         | **Refresh**    | **refresh regularly** （定期刷新）| **Not refresh** |
         | **Speed**        | Slow    | Fast   |
@@ -71,14 +71,15 @@
     - 主存和缓存的功能与使用
       - 主存（RAM）
         - **功能**：存储当前运行的程序和数据，支持多任务处理。
+            **Function**: Store currently **running programs and data**, and **support multitasking**.
         - **使用**：操作系统和应用程序在主存中加载并执行指令，存储正在使用的数据。
+            **Use**: 
       - 缓存（Cache）
         - **功能**：加速CPU对主存中数据的访问。存储热点数据，减少访问延迟。
         - **使用**：CPU通过缓存提高对数据的访问速度，减少从主存读取的次数。
       - 主存 vs 缓存
         | 特性 | 主存（RAM） | 缓存（Cache） |
         | ---- | --------- | ------------ |
-        | 容量 | 大（GB级别） | 小（KB-MB级别） |
         | 速度 | 较慢 | 非常快 |
         | 目的 | 存储程序和数据 | 加速CPU访问数据 |
         | 访问方式 | 由CPU或其他硬件直接访问 | CPU自动管理缓存内容，通常透明给应用程序 |
