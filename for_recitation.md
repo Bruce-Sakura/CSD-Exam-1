@@ -58,14 +58,15 @@
 
         SRAM is suitable for **cache**, **emphasizing speed**; DRAM is suitable for **main memory**, **emphasizing capacity** and cost.
 
-        | **Characteristic**        | **DRAM**                              | **SRAM**                                |
-        |-----------------|--------------------------------------|------------------------------------------|
-        | **Refresh**    | 需要定期刷新                           | 不需要刷新                                |
-        | **速度**        | 较慢                                  | 非常快                                    |
-        | **功耗**        | 较高（由于刷新）                       | 低（不需要刷新）                           |
-        | **密度**        | 高                                    | 低                                       |
-        | **成本**        | 低                                    | 高                                       |
-        | **应用**        | 主要用于主存储器、显卡等大容量存储       | 主要用于CPU缓存、高速缓存等场景             |
+        | **Characteristic** | **DRAM** | **SRAM** |
+        |-----------------|----|----------------|
+        | **Storage** | **Capacitance**(电容) & **Transistor**（晶体管） | **Transistor**（晶体管） |
+        | **Refresh**    | **refresh regularly** （定期刷新）| **Not refresh** |
+        | **Speed**        | Slow    | Fast   |
+        | **Power**        | High  | Low |
+        | **Density**（密度）| High |Low |
+        | **Cost**        | Low    | High  |
+        | **Apply**        | Memory | CPU,GPU |
 
     - 主存和缓存的功能与使用
       - 主存（RAM）
