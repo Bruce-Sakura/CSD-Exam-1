@@ -4,7 +4,7 @@
 - EEPROM (Electrically Erasable Programmable read only memory) 
   - 用途和特性
     - EEPROM 是一种带电可擦可编程只读存储器，掉电后数据不丢失。可以擦除已有信息并重新编程，广泛用于即插即用设备，如 U 盘。
-    - EEPROM is an electrically erasable programmable read-only memory that does not lose data after power failure. Existing information can be erased and reprogrammed, and it is widely used in plug-and-play devices such as USB flash drives.
+
     - 用途
       - 数据存储：保存用户设定、设备参数等小型非易失性数据。
       - 配置存储：嵌入式系统中存储固件或硬件配置信息。
@@ -44,7 +44,6 @@
         | 成本 | 较低 | 较高 |
 - 虚拟内存 (Virtual Memory) (Swap)
   - **定义和系统中角色**：虚拟内存是操作系统用来扩展物理内存的一种技术，通常通过硬盘的交换空间来实现。
-  - Virtual memory is a technique used by operating systems to extend physical memory, usually through the swap space of the hard disk.
 
 - 总线系统
   - 地址总线
@@ -115,8 +114,22 @@
 
           - 中断向量：每个中断请求源都有一个中断向量，这个向量是一个指向中断服务例程（ISR）的指针。当中断发生时，CPU 会根据中断请求的类型（通过 IRQ 线）跳转到相应的中断向量，执行对应的 ISR。
          
-      - **读/写控制线**：指示CPU或内存进行读操作或写操作。
-        - 
+      - **读/写控制线**（Read/Write Control Lines）：
+        - 概念：
+          - Read/Write Control Lines 是计算机和数字系统中用于控制数据传输方向和操作类型的信号线。它们在总线系统中发挥着关键作用，帮助系统区分何时进行数据的读取（读取操作）和写入（写入操作）。通常，读/写控制线是 CPU 与内存、外设等组件之间的通信协议的一部分。
+        - 操作：当需要从存储设备（如内存、硬盘等）读取数据时，控制线会发送一个读信号（通常标记为 READ 或 RD），指示系统准备从指定的地址获取数据。
+
+        - 写操作：当需要将数据写入存储设备时，控制线会发送一个写信号（通常标记为 WRITE 或 WR），指示系统将数据写入到指定的地址。
+      
+      - 作用：
+        - 控制数据传输方向：读/写控制线的主要作用是控制数据流的方向。通过设置读或写信号，系统能够确定数据是从外设或内存读取（读操作）还是写入外设或内存（写操作）。
+
+        - 确定操作类型：读/写控制线帮助定义当前总线操作的类型。当系统正在进行数据交换时，读信号或写信号可以帮助各个组件知道该执行何种操作。
+
+        - 同步通信：在总线协议中，读/写控制线通常与时钟信号、地址信号以及数据总线的控制信号一起工作，保证所有的数据交换按照时序进行，以确保可靠的同步操作。
+
+        - 选择器信号：有时，读/写控制信号还作为其他设备或模块的选择信号，指示哪个设备或存储器正在进行当前的操作。
+      
       - **存储器使能线**：控制内存是否可访问。
       - **I/O端口使能线**：控制I/O设备是否与CPU交换数据。
       - **NMI（不可屏蔽中断）**
