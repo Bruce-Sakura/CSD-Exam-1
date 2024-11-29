@@ -1,37 +1,66 @@
 # **大综合1**
 
 ## **计算机系统原理(Computer System Fundamentals)**
+
 - EEPROM (Electrically Erasable Programmable read only memory)
+
     - EEPROM 是一种带电可擦可编程只读存储器，掉电后数据不丢失。
-    EEPROM is an electrically erasable programmable read-only memory that does **not lose data after power failure**.
+
+        EEPROM is an electrically erasable programmable read-only memory that does **not lose data after power failure**.
+
     - 可以擦除已有信息并重新编程
-    Existing information can be **erased and reprogrammed**
+
+        Existing information can be **erased and reprogrammed**
+
     - 广泛用于即插即用设备，如 U 盘。
-    It is widely used in **plug-and-play devices** such as **USB**.
+
+        It is widely used in **plug-and-play devices** such as **USB**.
+
     - 用途
       - 数据存储：保存用户设定、设备参数等小型非易失性数据。
-      Data Storage: **Save small non-volatile data** such as user settings and device parameters.
+
+        Data Storage: **Save small non-volatile data** such as user settings and device parameters.
+
       - 配置存储：嵌入式系统中存储固件或硬件配置信息。
-      Configuration Storage: Stores firmware or hardware configuration information in **embedded systems**.
+
+        Configuration Storage: Stores firmware or hardware configuration information in **embedded systems**.
+
       - 固件更新：部分设备用于存储可更新的代码或校准数据。
-      Firmware Update: Some devices are used to store **updatable code or calibration data**.
+
+        Firmware Update: Some devices are used to store **updatable code or calibration data**.
+
     - 特性
-      - 非易失性：断电后数据不会丢失。 Non-volatile: **Data will not be lost after power off**.
+      - 非易失性：断电后数据不会丢失。
+
+        Non-volatile: **Data will not be lost after power off**.
+
       - 可擦写：电气方式多次擦写，但有擦写寿命（通常 10,000～1,000,000 次）。
-      **Writetable**: Can be erased electrically multiple times, but has an erase lifetime (usually 10,000 to 1,000,000 times).
+
+        **Writetable**: Can be erased electrically multiple times, but has an erase lifetime (usually 10,000 to 1,000,000 times).
+
       - 字节级操作：支持逐字节读写，灵活性高。
-      Byte-level operations: Support **byte-by-byte** read and write, with high flexibility.
+
+        Byte-level operations: Support **byte-by-byte** read and write, with high flexibility.
+
       - 慢速写入：写入速度比读取慢。
-      Slow write: **Write speed is slower than read speed**.
+
+        Slow write: **Write speed is slower than read speed**.
+
       - 容量小：通常容量为几 KB 到几十 KB。
+
+        Small capacity: Usually the capacity ranges from a few KB to several tens of KB.
+
 - RAM
+
   - 静态RAM (SRAM) 和动态RAM (DRAM) 比较
+
     - SRAM 适合高速缓存，强调速度；DRAM 则适合主存，强调容量和成本。
 
-        | **特性**        | **DRAM**                              | **SRAM**                                |
+        SRAM is suitable for **cache**, **emphasizing speed**; DRAM is suitable for **main memory**, **emphasizing capacity** and cost.
+
+        | **Characteristic**        | **DRAM**                              | **SRAM**                                |
         |-----------------|--------------------------------------|------------------------------------------|
-        | **存储单元**    | 电容和晶体管                           | 6个晶体管                                 |
-        | **刷新机制**    | 需要定期刷新                           | 不需要刷新                                |
+        | **Refresh**    | 需要定期刷新                           | 不需要刷新                                |
         | **速度**        | 较慢                                  | 非常快                                    |
         | **功耗**        | 较高（由于刷新）                       | 低（不需要刷新）                           |
         | **密度**        | 高                                    | 低                                       |
