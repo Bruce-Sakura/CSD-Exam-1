@@ -1,4 +1,9 @@
 # **大综合1**
+| 版本 | 链接 |
+| ---- | ---- |
+| English 关键词版本 | [跳转到页面](English.md) |
+
+
 
 ## **计算机系统原理(Computer System Fundamentals)**
 - EEPROM (Electrically Erasable Programmable read only memory) 
