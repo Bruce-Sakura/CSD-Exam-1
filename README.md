@@ -2,6 +2,7 @@
 | 版本 | 链接 |
 | ---- | ---- |
 | English 关键词版本 | [跳转到页面](English.md) |
+|Normal English | [跳转到页面](for_recitation.md) |
 
 
 
