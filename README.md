@@ -10,6 +10,10 @@
   有迭代 = 有循环
 
   c 内置函数：printf scanf 
+
+  程序复用，减少复杂度
+  外部提供数据传入内部函数参与运算
+  把数据提供给其他方法
 ''' 
 
 ## **计算机系统原理(Computer System Fundamentals)**
