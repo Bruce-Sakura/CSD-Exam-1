@@ -5,6 +5,7 @@
 |Normal English | [跳转到页面](for_recitation.md) |
 
 8 写 7 修电脑可以放弃
+每一点列出来
 
 
 ## **计算机系统原理(Computer System Fundamentals)**
@@ -402,4 +403,3 @@
       - 系统盘文件快满了(没有临时文件存放空间)
       - 中毒
       - windows更新变卡(版本不兼容硬件,软件)
-  - 区分硬件和软件错误
