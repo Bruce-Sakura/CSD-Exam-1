@@ -4,9 +4,13 @@
 | English 关键词版本 | [跳转到页面](English.md) |
 |Normal English | [跳转到页面](for_recitation.md) |
 
-8 写 7 修电脑可以放弃
-每一点列出来
+'''
+  8 写 7 修电脑可以放弃
+  每一点列出来
+  有迭代 = 有循环
 
+  c 内置函数：printf scanf 
+''' 
 
 ## **计算机系统原理(Computer System Fundamentals)**
 - EEPROM (Electrically Erasable Programmable read only memory) 
@@ -403,3 +407,4 @@
       - 系统盘文件快满了(没有临时文件存放空间)
       - 中毒
       - windows更新变卡(版本不兼容硬件,软件)
+
