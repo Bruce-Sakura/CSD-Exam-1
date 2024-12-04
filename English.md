@@ -24,3 +24,4 @@
     - Can be access randomly
     - Used as the primary memory in computers and other devices to store data that is actively being used or processed by the system.
     
+  - Cache
