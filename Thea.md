@@ -1,5 +1,6 @@
 # GU1 计算机系统原理
-## *（Computer Systems Fundamentals）*
+
+## *计算机系统原理（Computer Systems Fundamentals）*
 
 ### 内存与存储 (Memory and Storage)
   - EEPROM (Electrically Erasable Programmable read only memory) 
@@ -80,6 +81,19 @@
      |---|------|
      | 0 |   1  |
      | 1 |   0  |
+
+
+### 系统软件与工具 (System Software and Utilities)
+
+ - 实用程序软件 (Utility Software)
+1. 增强操作系统的功能（资源管理器、磁盘碎片整理等）
+
+2. 典型的工具和应用程序
+
+ - 备份与恢复 (Backup and Recovery)
+1. 完整备份的作用和文件属性的变化
+     - 作用： 
+     -即存档属性用于控制文件备份。当文件被创建或修改时，其存档属性会被设置。备份软件可以检查此属性，以确定哪些文件已更改并需要备份，确保增量备份中只包含修改过的文件，节省时间和存储空间。
 
 
  
